@@ -197,7 +197,7 @@ while True:
 
                     if extype != "2":
                         while True:
-                            print(f"사용 가능한 비율: 1분의 {rates}")
+                            print(f"사용 가능한 비율: {rates}분의 1")
                             
                             mag = input("숫자 : ")
                             if is_number(mag):
